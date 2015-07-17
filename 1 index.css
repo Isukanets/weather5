@@ -1,0 +1,73 @@
+* {
+    margin: 0.2em; 
+    padding: 0.2em;
+}
+body {
+    font-family: "Comic sans MS", cursive, sans-serif;
+    background-image: url(65556561-800x534.jpg);
+    background-size: 120% auto;
+    }
+nav {
+    font-size: 20px;
+        }
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    }
+select {
+    background-color: white;
+    border-radius: 10px;
+    border-color: bisque;
+    font-size: 18px;
+    color: brown;
+    text-align: left;
+}
+button {
+    width: 12%;
+    height: 300px;
+    background-color: white;
+    border-radius:  25px;
+    -ms-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    box-shadow: 15px 15px 10px #808080; 
+    font-family: "Comic sans MS", cursive, sans-serif;
+    font-size: 20px;
+    color: burlywood;
+}
+p1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: brown;
+}
+p2 {
+    text-align: center;
+    text-decoration: underline;
+    color: firebrick;
+}
+p3 {
+    color: firebrick;
+    font-size: 25px;
+}
+button:hover {
+    text-decoration: underline;
+    color: red;
+}
