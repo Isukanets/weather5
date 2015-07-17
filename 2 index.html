@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <title>Про погоду</title>
+     <link rel="stylesheet" type="text/css" href="2015.07.02-weatherfeedback.css"/>
+    </head>
+  <body>
+    <nav> 
+      <a href="2015.07.01%20-%20Weather%20title%20page.html">Про погоду</a>
+      <a href="2015.07.02-weatherfeedback.html">Зворотній зв'язок</a>        
+    </nav>
+    <article>
+      <h1>Зворотній зв'язок</h1>
+        <p>Щоб Ваше звернення надійшло за призначенням, обов’язково вкажіть своє прізвище та ім’я, контактну адресу, контактний телефон. А також - детально викладіть суть Вашого звернення – це значно прискорить вирішення Вашого питання.</p>
+      <form id="contact" method="post" action="">
+      <fieldset>
+        <label for="name">Name*</label>
+        <input type="text" name="name"/><br> 
+      </fildset>
+      
+      <fildset>     
+        <label for="E-mail">E-meil*</label>
+        <input type="e-mail" name="E-meil" required pattern="^[-a-z0-9!#$%&'*+/=?^_`{|}~]+(?:\.[-a-z0-9!#$%&'*+/=?^_`{|}~]+)*@(?:[a-z0-9]([-a-z0-9]{0,61}[a-z0-9])?\.)*(?:aero|arpa|asia|biz|cat|com|coop|edu|gov|info|int|jobs|mil|mobi|museum|name|net|org|pro|tel|travel|[a-z][a-z])$" /><br>
+      </fildset>
+         
+      <fildset>     
+        <label for="message">Message*</label>
+        <input type="text" name="message"  /><br>
+      </fildset>
+         
+      <fildset>
+        <label for="impression">Impression*</label>
+        <input type="text" name="impression" /><br>
+      </fieldset>
+        
+       <fildset>
+         <input type="submit" value="Надіслати" />
+       </fieldset>
+     </from>  
+     <footer>
+     <p>Поля, позначені *, обов'язково слід заповнити.</p>
+     <p1> Увага! Перевірте Вашу контактну інформацію! Від її точності залежить можливість відправлення Вам відповіді!</p1>    
+     </footer>    
+    </article>
+
+   </body>
+</html>   
+    
+    
+
